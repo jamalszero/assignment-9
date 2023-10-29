@@ -5,9 +5,12 @@ const Root = () => {
     return (
         <div>
             <nav className=" mx-auto border-b">
-            <Navbar></Navbar>
+                <Navbar></Navbar>
             </nav>
-            <Outlet></Outlet>
+            <div className="container mx-auto">
+                <Outlet></Outlet>
+            </div>
+
         </div>
     );
 };
