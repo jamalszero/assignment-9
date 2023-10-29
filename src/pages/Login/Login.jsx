@@ -1,7 +1,7 @@
 
 const Login = () => {
     return (
-        <div className="w-[95%] mx-auto">
+        <div className="w-[95%] mx-auto h-screen">
             Login
         </div>
     );

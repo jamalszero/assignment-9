@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../Navbar/Navbar.css"
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
                     <img src="/Jamal.jpg" className="w-10 h-10 rounded-full" />
                     <p className="mx-3">jamalsherpur@gmail.com</p>
 
-                    <NavLink className="px-5 py-2 bg-[#F23534] text-white  font-medium rounded hover:bg-[#F23534] hover:text-white">Logout</NavLink>
+                    <Link className="px-5 py-2 bg-[#F23534] text-white  font-medium rounded hover:bg-[#F23534] hover:text-white">Logout</Link>
 
                 </div>
             </div>

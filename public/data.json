@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Event Planning and Coordination",
+      "image": "https://i.ibb.co/xFvKRpG/pngtree-a-wooden-desk-in-an-office-bearing-a-sign-for-event-planning-photo-image-27563714.jpg",
+      "price": 1000,
+      "short_description": "Crafting memorable events, from concept to reality. Your vision, our expertise, perfection in every detail.",
+      "long_description": "Our expert event planners will handle all aspects of your educational conference, from venue selection to scheduling, ensuring a seamless and well-organized event that aligns with your objectives."
+    },
+    {
+      "id": 2,
+      "title": "Program Development and Speaker Management",
+      "image": "https://i.ibb.co/8mR27Vt/istockphoto-578574238-612x612.jpg",
+      "price": 2000,
+      "short_description": "Creating impactful programs and managing speakers for unforgettable events. We make your vision a reality.",
+      "long_description": "We will work closely with you to curate a compelling program, select knowledgeable speakers, and create engaging content that resonates with your target audience, enhancing the overall learning experience."
+    },
+    {
+      "id": 3,
+      "title": "Registration and Attendee Management",
+      "image": "https://i.ibb.co/0hBFjnp/attendance-management-copy.png",
+      "price": 3000,
+      "short_description": "Efficient registration and seamless attendee management, ensuring your event runs flawlessly. A stress-free experience for all.",
+      "long_description": "Simplify the registration process for your attendees with our user-friendly online registration system. We manage attendee information, ticketing, and provide efficient support to make the registration experience hassle-free."
+    },
+    {
+      "id": 4,
+      "title": "Marketing and Promotion Services",
+      "image": "https://i.ibb.co/Rckn3Rf/Best-Instagram-Promotion-Websites.png",
+      "price": 4000,
+      "short_description": "Amplify your brand with our expert marketing and promotion services. Elevate your message, engage your audience.",
+      "long_description": "We'll promote your educational conference through tailored marketing strategies, including social media campaigns, email marketing, and targeted advertising, maximizing your event's reach and impact."
+    },
+    {
+      "id": 5,
+      "title": "Audio-Visual and Technical Support",
+      "image": "https://i.ibb.co/ZcGXvwK/About-03.jpg",
+      "price": 3500,
+      "short_description": "Enhance your event with expert audio-visual and technical support. Seamless execution, exceptional experiences.",
+      "long_description": "Our technical experts ensure that your conference is equipped with state-of-the-art audio-visual equipment and offer technical support throughout the event, guaranteeing a seamless and engaging experience for all participants."
+    },
+    {
+      "id": 6,
+      "title": "On-Site Event Management",
+      "image": "https://i.ibb.co/L0gk4Bj/Blog-banner-onsite-event-technology-03.png",
+      "price": 5000,
+      "short_description": "On-site event excellence. We manage every detail for a flawless and memorable experience.",
+      "long_description": "Our on-site management team will be there to oversee the logistics, assist attendees, and resolve any issues in real-time. With our dedicated support, your conference will run smoothly and stress-free."
+    }
+  ]
+  
