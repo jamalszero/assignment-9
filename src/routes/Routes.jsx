@@ -10,11 +10,13 @@ import Details from "../components/Details/Details";
 import PrivateRouteForDetails from "./PrivateRouteForDetails/PrivateRouteForDetails";
 import PrivateRouteForPaymentHistory from "./PrivateRouteForPaymentHistory/PrivateRouteForPaymentHistory";
 import PrivateRouteForOrder from "./PrivateRouteForOrder/PrivateRouteForOrder";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: "/",

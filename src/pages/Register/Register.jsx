@@ -1,9 +1,11 @@
+
 import { Link } from "react-router-dom";
 
+
 const Register = () => {
+
     return (
         <div className="w-[95%] mx-auto  flex justify-center items-center">
-
 
             <div className="hero-content w-full flex-col">
                 <h2 className="text-3xl">Register</h2>
@@ -28,7 +30,7 @@ const Register = () => {
                             </label>
                             <input type="email" name="email" placeholder="email" className="input input-bordered" required />
                         </div>
-                        
+
 
                         <div className="form-control">
                             <label className="label">

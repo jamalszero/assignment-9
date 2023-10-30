@@ -20,7 +20,7 @@ const Navbar = () => {
                 {
                     user && <div className="flex flex-col lg:flex-row items-center font-rajdhani my-3 lg:my-0">
                     <img src="/Jamal.jpg" className="w-10 h-10 rounded-full" />
-                    <p className="mx-3">Jamal</p>
+                    <p className="mx-3">User</p>
 
                     <Link className="px-5 py-2 bg-[#F23534] text-white  font-medium rounded hover:bg-[#F23534] hover:text-white">Logout</Link>
 
