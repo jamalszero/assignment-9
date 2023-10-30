@@ -1,10 +1,10 @@
 
-const About = () => {
+const PaymentHistory = () => {
     return (
         <div className="w-[95%] mx-auto h-screen">
-            About
+            Cart
         </div>
     );
 };
 
-export default About;
+export default PaymentHistory;

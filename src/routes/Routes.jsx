@@ -4,8 +4,12 @@ import Home from "../pages/Home/Home";
 import Register from "../pages/Register/Register";
 import Login from "../pages/Login/Login";
 import Order from "../pages/Order/Order";
-import Cart from "../pages/Cart/Cart";
-import About from "../pages/About/About";
+import PaymentHistory from "../pages/PaymentHistory/PaymentHistory";
+
+import Details from "../components/Details/Details";
+import PrivateRouteForDetails from "./PrivateRouteForDetails/PrivateRouteForDetails";
+import PrivateRouteForPaymentHistory from "./PrivateRouteForPaymentHistory/PrivateRouteForPaymentHistory";
+import PrivateRouteForOrder from "./PrivateRouteForOrder/PrivateRouteForOrder";
 
 const router = createBrowserRouter([
     {
@@ -28,15 +32,17 @@ const router = createBrowserRouter([
             },
             {
                 path: "/order",
-                element: <Order></Order>
+                element: <PrivateRouteForOrder><Order></Order></PrivateRouteForOrder>
             },
             {
-                path: "/cart",
-                element: <Cart></Cart>
+                path: "/payment-history",
+                element: <PrivateRouteForPaymentHistory><PaymentHistory></PaymentHistory></PrivateRouteForPaymentHistory>
             },
+            
             {
-                path: "/about",
-                element: <About></About>
+                path: "/details/:id",
+                element: <PrivateRouteForDetails><Details></Details></PrivateRouteForDetails>,
+                loader: () => fetch('/data.json')
             }
         ]
     }
